@@ -1,0 +1,23 @@
+[
+  {
+      "id": "123245",
+      "title": "A Book",
+      "imageUrl": "https://assets.entrepreneur.com/content/3x2/2000/20191219170611-GettyImages-1152794789.jpeg",
+      "description": "This is an awesome book!",
+      "price": "19"
+  },
+  {
+      "id": "0.41607315815753076",
+      "title": "Cover Letter",
+      "imageUrl": "https://assets.entrepreneur.com/content/3x2/2000/20191219170611-GettyImages-1152794789.jpeg",
+      "description": "Cover letters of some popular selling books",
+      "price": "18"
+  },
+  {
+      "id": "0.24740344153534033",
+      "title": "Book 2",
+      "imageUrl": "https://www.thebalance.com/thmb/wQlDM0qN2ctH5k7Aj1b_OD_FLX0=/683x542/filters:no_upscale():max_bytes(150000):strip_icc()/ScreenShot2019-10-14at9.34.06AM-757b2b342fd448b88804abe6c96e122a.png",
+      "description": "Sample Book2",
+      "price": "32"
+  }
+]
