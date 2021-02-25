@@ -4,7 +4,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const errorController = require("./controllers/error");
-//const db = require('./util/database');
+
+
 
 const app = express();
 
@@ -20,14 +21,10 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/admin", adminRoutes);
 app.use(shopRoutes);
 
-// db.execute('SELECT * FROM PRODUCTS').then((result)=>{
-//     console.log(result[0]);
-// }).catch(err=>{
-//     console.log(err);
-// })
 
 app.use(errorController.get404);
 
-app.listen(3000, () => {
-  console.log("server running..");
+app.listen(8080, () => {
+  console.log("server running on port",8080);
 });
+
